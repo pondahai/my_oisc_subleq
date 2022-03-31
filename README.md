@@ -1,1 +1,2 @@
-# my_oisc_subleq
+# my_oisc_subleq  
+![](main.png)
