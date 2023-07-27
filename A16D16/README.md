@@ -10,3 +10,6 @@ This is about address bus 16 bit and data bus 16 bit
 因此再一次改動架構
 將資料寬度擴展為十六位元
 而控制單元不需改動
+
+20230727
+我把電路模擬器改成logisim-evolution HC edition
