@@ -13,3 +13,4 @@ This is about address bus 16 bit and data bus 16 bit
 
 20230727  
 我把電路模擬器改成logisim-evolution HC edition
+這個模擬器版本跑得比較快
