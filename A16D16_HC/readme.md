@@ -1,3 +1,4 @@
+![](main.png)  
 
 我改用logisim-evolution-HC版本進行模擬  
 HC版本的模擬器執行速度比較快  
