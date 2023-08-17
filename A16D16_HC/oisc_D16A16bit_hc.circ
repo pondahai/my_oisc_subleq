@@ -122,18 +122,21 @@
     <comp lib="0" loc="(1244,1275)" name="Text">
       <a name="text" val="less equ zero"/>
     </comp>
+    <comp lib="0" loc="(755,509)" name="Text">
+      <a name="text" val="read enable"/>
+    </comp>
     <comp lib="1" loc="(1020,450)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="fanout" val="16"/>
       <a name="incoming" val="16"/>
     </comp>
     <comp lib="1" loc="(1060,620)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="facing" val="west"/>
       <a name="fanout" val="16"/>
       <a name="incoming" val="16"/>
     </comp>
     <comp lib="1" loc="(1060,620)" name="Splitter">
-      <a name="appear" val="right"/>
-      <a name="facing" val="west"/>
       <a name="fanout" val="16"/>
       <a name="incoming" val="16"/>
     </comp>
@@ -272,6 +275,10 @@
       <a name="facing" val="west"/>
       <a name="size" val="30"/>
     </comp>
+    <comp lib="2" loc="(1390,1270)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="30"/>
+    </comp>
     <comp lib="2" loc="(1420,1600)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
@@ -281,10 +288,6 @@
     </comp>
     <comp lib="2" loc="(1440,1070)" name="Controlled Buffer">
       <a name="width" val="16"/>
-    </comp>
-    <comp lib="2" loc="(1480,1340)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
     </comp>
     <comp lib="2" loc="(220,1680)" name="NOT Gate"/>
     <comp lib="2" loc="(450,1280)" name="OR Gate">
@@ -389,56 +392,56 @@
       <state path="/RAM@(1130,700)">
         <a name="contents">addr/data: 16 16
 compressed
-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
-iGIdAEEK9/i6tSI9j/QP29PwtA==</a>
+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
+fxHFOgCCFO7xaYv/S3WkfwDvYe0f</a>
       </state>
     </simulation>
     <wire from="(1000,460)" to="(1000,520)"/>
@@ -454,27 +457,30 @@ iGIdAEEK9/i6tSI9j/QP29PwtA==</a>
     <wire from="(1020,900)" to="(1330,900)"/>
     <wire from="(1020,970)" to="(1020,1100)"/>
     <wire from="(1020,970)" to="(1110,970)"/>
-    <wire from="(1030,1050)" to="(1030,1140)"/>
+    <wire from="(1030,1050)" to="(1030,1120)"/>
     <wire from="(1030,1050)" to="(1050,1050)"/>
-    <wire from="(1030,1140)" to="(1100,1140)"/>
+    <wire from="(1030,1120)" to="(1060,1120)"/>
     <wire from="(1040,1010)" to="(1040,1320)"/>
     <wire from="(1040,1010)" to="(1110,1010)"/>
+    <wire from="(1060,1120)" to="(1060,1150)"/>
+    <wire from="(1060,1150)" to="(1100,1150)"/>
     <wire from="(1060,620)" to="(1060,680)"/>
     <wire from="(1060,680)" to="(1450,680)"/>
-    <wire from="(1070,1310)" to="(1070,1410)"/>
-    <wire from="(1070,1310)" to="(1080,1310)"/>
+    <wire from="(1070,1260)" to="(1070,1410)"/>
+    <wire from="(1070,1260)" to="(1080,1260)"/>
     <wire from="(1070,1450)" to="(1070,1590)"/>
     <wire from="(1070,1450)" to="(1080,1450)"/>
     <wire from="(1070,1610)" to="(1070,1680)"/>
     <wire from="(1070,1680)" to="(1390,1680)"/>
     <wire from="(1070,760)" to="(1100,760)"/>
-    <wire from="(1080,1080)" to="(1080,1310)"/>
+    <wire from="(1080,1080)" to="(1080,1260)"/>
     <wire from="(1080,1320)" to="(1080,1450)"/>
     <wire from="(1080,1320)" to="(1100,1320)"/>
     <wire from="(1080,1450)" to="(1480,1450)"/>
     <wire from="(1090,1050)" to="(1180,1050)"/>
-    <wire from="(1100,1140)" to="(1100,1320)"/>
+    <wire from="(1100,1140)" to="(1100,1150)"/>
     <wire from="(1100,1140)" to="(1110,1140)"/>
+    <wire from="(1100,1150)" to="(1100,1320)"/>
     <wire from="(1100,1600)" to="(1100,1660)"/>
     <wire from="(1100,450)" to="(1110,450)"/>
     <wire from="(1100,740)" to="(1100,760)"/>
@@ -518,11 +524,15 @@ iGIdAEEK9/i6tSI9j/QP29PwtA==</a>
     <wire from="(1340,1220)" to="(1340,1270)"/>
     <wire from="(1340,970)" to="(1340,1020)"/>
     <wire from="(1360,1180)" to="(1360,1290)"/>
+    <wire from="(1380,1300)" to="(1380,1350)"/>
+    <wire from="(1380,1350)" to="(1390,1350)"/>
     <wire from="(1380,760)" to="(1410,760)"/>
-    <wire from="(1390,1090)" to="(1390,1350)"/>
+    <wire from="(1390,1090)" to="(1390,1270)"/>
     <wire from="(1390,1350)" to="(1390,1590)"/>
     <wire from="(1390,1350)" to="(1430,1350)"/>
     <wire from="(1390,1610)" to="(1390,1680)"/>
+    <wire from="(1400,1300)" to="(1400,1310)"/>
+    <wire from="(1400,1310)" to="(1470,1310)"/>
     <wire from="(1410,1070)" to="(1420,1070)"/>
     <wire from="(1410,1130)" to="(1410,1500)"/>
     <wire from="(1410,1130)" to="(1430,1130)"/>
@@ -535,11 +545,11 @@ iGIdAEEK9/i6tSI9j/QP29PwtA==</a>
     <wire from="(1450,760)" to="(1450,900)"/>
     <wire from="(1450,760)" to="(1540,760)"/>
     <wire from="(1450,900)" to="(1450,1070)"/>
-    <wire from="(1460,1340)" to="(1480,1340)"/>
+    <wire from="(1460,1340)" to="(1490,1340)"/>
     <wire from="(1460,1360)" to="(1460,1500)"/>
     <wire from="(1460,1500)" to="(1480,1500)"/>
     <wire from="(1470,920)" to="(1470,1310)"/>
-    <wire from="(1490,860)" to="(1490,1310)"/>
+    <wire from="(1490,860)" to="(1490,1340)"/>
     <wire from="(150,1620)" to="(180,1620)"/>
     <wire from="(1510,670)" to="(1510,1600)"/>
     <wire from="(1540,760)" to="(1540,770)"/>
