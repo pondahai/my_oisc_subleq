@@ -4,7 +4,10 @@ logisim version
   
 logisim TTL version  
 ![](main_TTL.png)  
-  
+
+block diagram  
+![](block_diagram.png)  
+
 我改用logisim-evolution-HC版本進行模擬  
 HC版本的模擬器執行速度比較快  
 
