@@ -6,7 +6,7 @@ I use the STM32F103 as a simulated RAM, and then I dump the RAM data to the term
   
 I have more information about my home-made subleq CPU here: https://www.facebook.com/DaHaiDeCPU/photos  
   
-logisim version(8bit databus)
+logisim TTL version(8bit databus)
 ![](main.png)
 
 breadboard version  
