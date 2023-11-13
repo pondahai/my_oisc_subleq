@@ -18,3 +18,10 @@ HC版本的模擬器執行速度比較快
 最後用實體ttl實現  
 rps.txt是「剪刀石頭布」程式，在logisim電路圖中的RAM載入資料時選擇raw格式就可以載入  
 rps.txt的源碼修改自：https://github.com/lawrencewoodman/sblasm /examples 感謝lawrencewoodman  
+
+繞線版本  
+![](IMG_2964.jpg)  
+使用STM32L476RG作為模擬記憶體  
+![](IMG_2960.jpg)  
+實體CPU遊玩「剪刀石頭布」  
+![](未命名.mp4)  
